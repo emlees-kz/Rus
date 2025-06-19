@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вузы Кыргызстана</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <div class="logo">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- Red circular background -->
+                <circle cx="100" cy="100" r="100" fill="#C8102E" />
+
+                <!-- Sun rays -->
+                <g transform="rotate(0 100 100)">
+                  <circle cx="100" cy="100" r="50" fill="#F4C542" />
+                  <g stroke="#C8102E" stroke-width="5">
+                    <!-- Sun rays in a radial pattern -->
+                    <line x1="100" y1="30" x2="100" y2="0" />
+                    <line x1="100" y1="170" x2="100" y2="200" />
+                    <line x1="30" y1="100" x2="0" y2="100" />
+                    <line x1="170" y1="100" x2="200" y2="100" />
+                    <line x1="50" y1="50" x2="30" y2="30" />
+                    <line x1="150" y1="150" x2="170" y2="170" />
+                    <line x1="150" y1="50" x2="170" y2="30" />
+                    <line x1="50" y1="150" x2="30" y2="170" />
+                  </g>
+                </g>
+                <!-- Tunduk (Yurt symbol, stylized) -->
+                <g transform="translate(100, 100) scale(0.5)">
+                  <circle
+                    r="60"
+                    fill="none"
+                    stroke="#C8102E"
+                    stroke-width="10"
+                  />
+                  <path
+                    d="M -30 -30 L 30 30 M 30 -30 L -30 30 M -35 0 L 35 0 M 0 -35 L 0 35"
+                    stroke="#C8102E"
+                    stroke-width="8"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="burger" id="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <ul class="menu">
+              <li class="nav-link"><a href="./index.html">Главная</a></li>
+              <li class="nav-link">
+                <a href="./pages/catalog.html">Каталог</a>
+              </li>
+              <li class="nav-link">
+                <a href="./pages/analytics.html">Аналитика</a>
+              </li>
+              <li class="nav-link"><a href="./pages/news.html">Новости</a></li>
+              <li class="nav-link">
+                <a href="./pages/programs.html">Программы обучения</a>
+              </li>
+              <li class="nav-link">
+                <a href="./pages/contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="header-slider">
+        <div class="slide" style="background-image: url(./imgs/auca.jpg)"></div>
+        <div class="slide" style="background-image: url(./imgs/knu.jpg)"></div>
+        <div class="slide" style="background-image: url(./imgs/bhu.jpg)"></div>
+        <div class="slide" style="background-image: url(./imgs/auca.jpg)"></div>
+        <div class="header-slider__content">
+          <h1 id="slide-title">Добро пожаловать на сайт о вузах Кыргызстана</h1>
+          <p id="slide-text">
+            Тут собрана только лучшая информация для вашего удобства
+          </p>
+        </div>
+      </div>
+
+      <main class="main">
+        <section
+          class="main-hero"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
+          <div class="container">
+            <h1 class="main-title">
+              Будьте всегда первыми из числа осведомленных
+            </h1>
+            <div class="main-section__cards">
+              <div class="main-section__card">
+                <h3>Найди для себя вуз мечты:</h3>
+                <p>
+                  У нас собрана только самая свежая информация о университетах
+                  Кыргызстана
+                </p>
+              </div>
+              <div class="main-section__card">
+                <h3>Найди для себя вуз мечты:</h3>
+                <p>
+                  У нас собрана только самая свежая информация о университетах
+                  Кыргызстана
+                </p>
+              </div>
+              <div class="main-section__card">
+                <h3>Найди для себя вуз мечты:</h3>
+                <p>
+                  У нас собрана только самая свежая информация о университетах
+                  Кыргызстана
+                </p>
+              </div>
+              <div class="main-section__card">
+                <h3>Найди для себя вуз мечты:</h3>
+                <p>
+                  У нас собрана только самая свежая информация о университетах
+                  Кыргызстана
+                </p>
+              </div>
+            </div>
+            <div class="main-section__info">
+              <h3>Наша задача:</h3>
+              <p>
+                облегчить поиск и поступление в вуз вашей мечты. Мы собираем
+                актуальную информацию о вузах Кыргызстана, чтобы вы могли
+                сравнить направления, проходные баллы, условия поступления и
+                стипендии. Наш сайт поможет вам сделать осознанный выбор и
+                уверенно начать путь к качественному образованию и успешной
+                карьере.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section
+          class="universities"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <div class="container">
+            <h2 class="section-title">Популярные вузы Бишкека</h2>
+            <div class="university-cards">
+              <div
+                class="university-card"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              >
+                <img src="./imgs/auca.jpg" alt="AUCA" />
+                <h3>АУЦА — Американский университет в Центральной Азии</h3>
+                <p>
+                  Один из самых престижных вузов региона с англоязычным
+                  образованием, международными программами и современным
+                  кампусом.
+                </p>
+              </div>
+
+              <div
+                class="university-card"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+              >
+                <img src="./imgs/knu.jpg" alt="KNU" />
+                <h3>КНУ им. Ж. Баласагына</h3>
+                <p>
+                  Ведущий классический университет Кыргызстана, широкий выбор
+                  факультетов и программ, государственная аккредитация.
+                </p>
+              </div>
+
+              <div
+                class="university-card"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <img src="./imgs/bhu.jpg" alt="BGU" />
+                <h3>БГУ — Бишкекский гуманитарный университет</h3>
+                <p>
+                  Гуманитарные и языковые специальности, современные методики
+                  преподавания, государственная поддержка.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta" data-aos="fade-up" data-aos-duration="2000">
+          <div class="container">
+            <h2 class="section-title">Не знаете с чего начать?</h2>
+            <p>
+              Мы собрали всю нужную информацию — рейтинги вузов, требования,
+              стоимость и стипендии. Пройдите наш
+              <strong>интерактивный тест</strong>, чтобы подобрать идеальный вуз
+              для вас!
+            </p>
+            <a href="./pages/contacts.html" class="cta-btn">Подобрать вуз</a>
+          </div>
+        </section>
+        <section class="reviews" data-aos="fade-up" data-aos-duration="1500">
+          <div class="container">
+            <h2 class="section-title">Отзывы студентов</h2>
+            <div class="review-cards">
+              <div
+                class="review-card"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                <p class="review-text">
+                  “Благодаря этому сайту я нашёл свой идеальный вуз! Очень
+                  удобно, всё по делу и без лишней информации.”
+                </p>
+                <div class="review-author">
+                  <img src="./imgs/student2.png" alt="student" />
+                  <span>Нурсултан, КНУ</span>
+                </div>
+              </div>
+
+              <div
+                class="review-card"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <p class="review-text">
+                  “Всё чётко: информация, сравнение вузов, условия. Сайт реально
+                  помогает выбрать будущее направление.”
+                </p>
+                <div class="review-author">
+                  <img src="./imgs/student1.png" alt="student" />
+                  <span>Айзада, АУЦА</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" data-aos="fade-up" data-aos-duration="1200">
+        <div class="container footer-content">
+          <div class="footer-logo">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="100" cy="100" r="100" fill="#C8102E" />
+              <g transform="rotate(0 100 100)">
+                <circle cx="100" cy="100" r="50" fill="#F4C542" />
+                <g stroke="#C8102E" stroke-width="5">
+                  <line x1="100" y1="30" x2="100" y2="0" />
+                  <line x1="100" y1="170" x2="100" y2="200" />
+                  <line x1="30" y1="100" x2="0" y2="100" />
+                  <line x1="170" y1="100" x2="200" y2="100" />
+                  <line x1="50" y1="50" x2="30" y2="30" />
+                  <line x1="150" y1="150" x2="170" y2="170" />
+                  <line x1="150" y1="50" x2="170" y2="30" />
+                  <line x1="50" y1="150" x2="30" y2="170" />
+                </g>
+              </g>
+            </svg>
+            <span>Вузы Кыргызстана</span>
+          </div>
+
+          <div class="footer-nav">
+            <a href="#">Главная</a>
+            <a href="#">Каталог</a>
+            <a href="#">Аналитика</a>
+            <a href="#">Программы</a>
+            <a href="#">Контакты</a>
+          </div>
+
+          <div class="footer-contact">
+            <p>Email: info@universities.kg</p>
+            <p>Тел: +996 (700) 123-456</p>
+            <div class="footer-socials">
+              <a href="#"><img src="./imgs/instagram.svg" alt="insta" /></a>
+              <a href="#"><img src="./imgs/facebook.svg" alt="fb" /></a>
+              <a href="#"><img src="./imgs/telegram.svg" alt="tg" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 Вузы Кыргызстана. Все права защищены.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/menu.js"></script>
+    <script type="module" src="main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
